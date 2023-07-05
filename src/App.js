@@ -28,6 +28,7 @@ function App() {
         <Route path='Blog' element={<Blog />} />
         <Route path='ViewBlog/:id' element={<ViewBlog />} />
         <Route path='Product' element={<CreateProduct />} />
+        <Route path='/Cart' element={<Home />} />
         <Route path='*' element={<h1>Page not found</h1>} />
         </Routes>
       </Suspense>
