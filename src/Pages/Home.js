@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import TopNavbar from '../Shared/TopNavbar'
-
+import "./style1.css"
 const Home = () => {
 
     const navigate = useNavigate();

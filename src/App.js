@@ -1,5 +1,5 @@
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route
 } from 'react-router-dom';
@@ -18,7 +18,7 @@ const Contact = lazy(() => import("./Pages/Contact"))
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route path='/' element={<Home />} />
@@ -32,7 +32,7 @@ function App() {
         <Route path='*' element={<h1>Page not found</h1>} />
         </Routes>
       </Suspense>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

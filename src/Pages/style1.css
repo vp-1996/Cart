@@ -126,7 +126,7 @@ a {
     -webkit-appearance: none;
     height: 14px;
     width: 14px;
-    background: url(../asset/cancel.png);
+    background: url(../../public/asset/cancel.png);
     background-repeat: no-repeat;
     cursor: pointer;
     margin-top: 5px;

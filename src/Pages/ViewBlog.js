@@ -4,7 +4,6 @@ import { useParams } from 'react-router-dom'
 import { GridLoader } from 'react-spinners';
 import { GetPosts } from '../config/api';
 import TopNavbar from '../Shared/TopNavbar';
-
 const ViewBlog = () => {
 
     const [post, setPost] = useState({});
